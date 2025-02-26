@@ -1,0 +1,15 @@
+{
+    "appId": "Woah.App.id",
+    "files": ["dist-electron", "dist-react"],
+    "icons": "",
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    }
+}
